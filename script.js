@@ -117,5 +117,5 @@ students.shift();
 console.log(students);
 
 //                                Task 20
-Object.assign(students[1], { name: "Demetre", age: 25 });
+Object.assign(students[students.length - 1], { name: "Demetre", age: 25 });
 console.log(students);
